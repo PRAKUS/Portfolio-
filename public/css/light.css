@@ -1,0 +1,13 @@
+:root {
+	--bg: #ede4d2;
+
+	--cardbg: #f9f4f1;
+	--cardshadow: rgba(102, 101, 107, 0.2);
+	--cardshadowh: rgba(102, 101, 107, 0.5);
+
+	--primary-bg: #e2c890;
+	--lightprimary-bg: #ffc107;
+
+	--fontprimary: #a7a8a1;
+	--fontsecondary: #7a7a79;
+}

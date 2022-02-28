@@ -1,0 +1,389 @@
+.cursor {
+	cursor: pointer;
+}
+.cursor:hover {
+	color: var(--primary-bg);
+}
+.text-primary {
+	color: var(--primary-bg) !important;
+}
+.text-secondary {
+	color: var(--fontsecondary);
+}
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.bg {
+	background-color: var(--bg);
+}
+.container-fluid {
+	margin: 0 auto;
+	max-width: 1320px;
+}
+.d-flex {
+	display: flex;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.fsh1 {
+	font-size: 15px;
+	color: var(--primary-bg);
+	font-weight: 500;
+}
+.fh3 {
+	font-size: 40px;
+	color: var(--fontsecondary);
+	font-weight: 500;
+	line-height: 0.04;
+}
+.fh1 {
+	font-size: 20px;
+	color: var(--primary-bg);
+	font-weight: 500;
+}
+.fh2 {
+	font-size: 20px;
+	color: var(--fontsecondary);
+	font-weight: 500;
+}
+.fp1 {
+	font-size: 16px;
+	color: var(--fontsecondary);
+	text-justify: auto;
+
+	line-height: 1.2;
+	font-weight: 200;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.m-0 {
+	margin: 0 !important;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	background-color: var(--bg);
+	margin: 0 auto;
+	max-width: 1320px;
+	z-index: 999;
+}
+.brand-logo {
+	height: 40px;
+	width: 40px;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin-left: auto;
+}
+.nav-item {
+	margin: 0 15px 0 0;
+}
+.nav-item > a {
+	text-decoration: none;
+	color: var(--fontprimary);
+}
+
+.button {
+	background-color: var(--primary-bg);
+	padding: 0.4em;
+	border-radius: 5px;
+	border: none;
+}
+
+.btn-secondary {
+	margin-top: 30px;
+	color: var(--bg);
+}
+
+.bio-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.h0 {
+	transition: all 0.5s;
+	font-size: 16px;
+	margin: 0 0 0 6px;
+	line-height: 3;
+	padding: 0;
+	font-weight: 400;
+	color: var(--primary-bg);
+}
+.h1 {
+	transition: all 0.5s;
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-weight: 400;
+	color: var(--fontsecondary);
+}
+.h2 {
+	transition: all 0.5s;
+	font-size: 28px;
+	margin: 0 0 0 6px;
+	line-height: 1.9;
+	font-weight: 430;
+	color: var(--fontprimary);
+}
+.h3 {
+	transition: all 0.5s;
+	font-size: 16px;
+	margin: 0 0 0 6px;
+	line-height: 1.2;
+	padding: 0;
+	font-weight: 400;
+	color: var(--fontprimary);
+	width: 90%;
+}
+.intro-text {
+	flex: 1 70%;
+}
+.intro-img-container {
+	transition: all 0.5s;
+	border-radius: 190px;
+	background-color: var(--primary-bg);
+	overflow: hidden;
+	padding: 10px 10px 10px 0px;
+	height: 200px;
+	width: 200px;
+}
+.intro-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 190px;
+}
+.abt-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.abtImg-container {
+	flex: 0 1 30%;
+	margin: 28px 0px 0 0px;
+	width: 200px;
+	height: 263px;
+	position: relative;
+	border: 2px solid var(--primary-bg);
+}
+.abt-img {
+	width: 100%;
+	margin: -15px 0px 0px -7px;
+}
+.abt-text {
+	flex: 0 1 70%;
+	padding-left: 40px;
+}
+.tag {
+	text-align: center;
+	color: var(--fontprimary);
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.tag-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card {
+	transition: all 0.2s;
+	margin: 0.4em;
+	max-width: 320px;
+	width: 100%;
+	max-height: 380px;
+	height: 100%;
+	overflow: hidden;
+	background-color: var(--cardbg);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 5px var(--cardshadow);
+}
+.card:hover {
+	transition: all 0.2s;
+	transform: translateY(-5px);
+	box-shadow: 0px 3px 3px var(--cardshadowh);
+}
+.card-body {
+	padding: 0 1em;
+	font-size: 12px;
+	color: var(--fontprimary);
+}
+.card-imgContainer {
+	width: 100%;
+	height: 180px;
+	overflow: hidden;
+}
+.card-img {
+	width: 101%;
+}
+.c-cont {
+	display: flex;
+	flex-wrap: wrap;
+}
+.border {
+	border-radius: 5px;
+	border: 1px solid var(--primary-bg);
+}
+.banner {
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 10px;
+	position: relative;
+	z-index: -1;
+}
+.banner-overlay {
+	position: absolute;
+	background-color: rgba(42, 43, 42, 0.3);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.banner-caption {
+	position: absolute;
+	z-index: 1;
+	top: 40%;
+	left: 40%;
+	right: 40%;
+	padding: 1em;
+}
+.projectDes-section {
+	display: grid;
+	grid-template-areas: "index content";
+	grid-template-columns: 14% 86%;
+	margin-top: 10px;
+}
+
+.tableofcontent {
+	grid-area: index;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20%;
+	align-items: center;
+	background-color: var(--cardbg);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.content {
+	grid-area: content;
+	padding: 2%;
+}
+.contact-link-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 5% 0;
+}
+.contact-link {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px;
+	align-items: center;
+	text-decoration: none;
+}
+.contact-icon {
+	background-color: var(--cardbg);
+	color: var(--fontsecondary);
+	border-radius: 25px;
+	padding: 10px;
+}
+.contact-font {
+	font-size: 10px;
+	margin: 0;
+	color: var(--fontprimary);
+}
+.side-option {
+	cursor: pointer;
+	font-size: 15px;
+	color: var(--fontsecondary);
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+.side-option:hover {
+	color: var(--primary-bg);
+	background-color: var(--bg);
+}
+
+/* The switch - the box around the slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--cardbg);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 1px;
+	bottom: 1px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked + .slider {
+	background-color: var(--cardbg);
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px var(--cardshadow);
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(17px);
+	-ms-transform: translateX(17px);
+	transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
