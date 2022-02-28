@@ -136,7 +136,7 @@ function Main() {
 								</Card.Body>
 							</Card>
 							<Card>
-								<Card.Img className='card-img' src='./image/banner.png' />
+								<Card.Img className='card-img' src='./image/banner.PNG' />
 
 								<Card.Body>
 									<h4 style={{ margin: "0px", fontSize: "18px" }}>
