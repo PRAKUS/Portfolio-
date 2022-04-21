@@ -218,7 +218,7 @@ function Main() {
 						</a>
 
 						<a
-							href='https://bit.ly/3gl7UC8'
+							href='https://bit.ly/3L3WfEZ'
 							className='contact-link'
 							rel='noreferrer'
 							target='_blank'>
